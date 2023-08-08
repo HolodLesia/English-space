@@ -1,4 +1,15 @@
-<div class="forms">
+<main class="main">
+  <section>
+    <h3>Add / Edit irregular verbs</h3>
+    <form id="search-verb" action="">
+        <label for="search-verb">
+            <input type="search" placeholder="Search irregular verb..." required>
+        </label>
+        <button type="submit">Search</button>
+    </form>
+  </section>
+  <section>
+  <div class="forms">
     <div class="forms__input-form input-form">
       <form action="">
         <label>
@@ -26,15 +37,56 @@
       </form>
       <form action="">
         <label>
-          <input type="text" class="input-form__input-verb input-verb" placeholder="With the 3-rd person singular" required
-            minlength="5" maxlength="20" size="22">
+          <input type="text" class="input-form__input-verb input-verb" placeholder="With the 3-rd person singular"
+            required minlength="5" maxlength="20" size="22">
         </label>
       </form>
       <form action="">
         <label>
-          <input type="text" class="input-form__input-verb input-verb" placeholder="Translation" required
-            minlength="5" maxlength="20" size="22">
+          <input type="text" class="input-form__input-verb input-verb" placeholder="Translation" required minlength="5"
+            maxlength="20" size="22">
         </label>
       </form>
     </div>
   </div>
+</section>
+  <section>
+    <div class="selection-form">
+      <form action="http://192.168.31.240:8080/adm_verbs/wordPhonetic/111">
+          <label for="select-group"></label>
+          <select name="verb-name" id="select-group">
+              <option value="choose">-- Please choose a group of verbs --</option>
+              <option value="group-1">Group-1</option>
+              <option value="group-2">Group-2</option>
+              <option value="group-3">Group-3</option>
+              <option value="group-4">Group-4</option>
+              <option value="group-5">Group-5</option>
+              <option value="group-6">Group-6</option>
+              <option value="group-7">Group-7</option>
+              <option value="group-8">Group-8</option>
+              <option value="group-9">Group-9</option>
+              <option value="group-10">Group-10</option>
+              <option value="group-11">Group-11</option>
+              <option value="group-12">Group-12</option>
+              <option value="group-13">Group-13</option>
+              <option value="group-14">Group-14</option>
+          </select>
+      </form>
+  </div>
+      <div class="selection-number">
+          <form action="">
+              <label for="select-number"></label>
+              <select name="number" id="select-number">
+                  <option value="choose">-- Number --</option>
+                  <option value="number-1">50</option>
+                  <option value="number-2">100</option>
+                  <option value="number-3">150</option>
+                  <option value="number-4">200</option>
+                  <option value="number-5">300</option>
+                  <option value="number-6">400</option>
+              </select>
+          </form>
+      </div>
+      </div>
+  </section>
+</main>
