@@ -1,0 +1,59 @@
+  .registration-container__title {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  .registration-container__instructions {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  .registration-container__form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .registration-form {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  .registration-form:last-of-type {
+    border-bottom: none;
+  }
+  
+  .registration-form__label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .registration-form__input,
+  .additional-info__input,
+  .additional-info__textarea,
+  .additional-info__select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  .registration-form__input,
+  .additional-info__input,
+  .additional-info__textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  .registration-container__submit {
+    display: block;
+    margin: 1em auto;
+  }
