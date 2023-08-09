@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&family=Edu+SA+Beginner&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -10,15 +10,12 @@
 
 :root {
     --ui-brand-color: #c8693a;
-    --background-color: #261e1c;
-    --text-color: rgb(255, 255, 255);
-    --text-color-dark: rgb(137,128,130);
+    --background-color: #5a3b33;
+    --text-color: rgb(205, 127, 117);
+    --text-color-dark: rgb(129, 103, 108);
     --font-h: 'Prata', serif;
     --font-p: 'Rubik', sans-serif;
     --font-cursive: 'Great Vibes', cursive;
-}
-
-body {
     scroll-behavior: smooth;
     color: var(--text-color);
 }

@@ -1,6 +1,7 @@
   .registration-container__title {
     margin: 1em auto;
     text-align: center;
+    font-family: var (--font-h);
   }
   
   .registration-container__instructions {
@@ -13,6 +14,8 @@
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
+    background-color: bisque;
+    border-radius: 3%;
   }
   
   .registration-form {
@@ -42,7 +45,7 @@
   .registration-form__input,
   .additional-info__input,
   .additional-info__textarea {
-    background-color: #0a0a23;
+    background-color: #e0aea4;
     border: 1px solid #0a0a23;
     color: #ffffff;
   }
@@ -56,4 +59,11 @@
   .registration-container__submit {
     display: block;
     margin: 1em auto;
+  }
+
+  .account-type__terms-link{
+    color: var(--text-color);
+  }
+  .additional-info__input{
+    border-radius: 3%;
   }
