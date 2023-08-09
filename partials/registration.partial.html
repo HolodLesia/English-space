@@ -1,0 +1,38 @@
+<div class="registration-container"> <!-- Блок "registration-container" -->
+    <h2 class="registration-container__title">Реєстраційна Форма</h2> <!-- Елемент "title" в блоку "registration-container" -->
+    <p class="registration-container__instructions">Будь ласка, заповніть цю форму обов'язковою інформацією</p> <!-- Елемент "instructions" в блоку "registration-container" -->
+    <form class="registration-container__form" method="post" action='https://register-demo.freecodecamp.org'> <!-- Елемент "form" в блоку "registration-container" -->
+      <fieldset class="registration-form"> <!-- Блок "registration-form" -->
+        <label class="registration-form__label" for="first-name">Введіть ваше ім'я: <input class="registration-form__input" id="first-name" name="first-name" type="text" required /></label> <!-- Елементи "label" та "input" в блоку "registration-form" -->
+        <label class="registration-form__label" for="last-name">Введіть ваше прізвище: <input class="registration-form__input" id="last-name" name="last-name" type="text" required /></label> <!-- Елементи "label" та "input" в блоку "registration-form" -->
+        <label class="registration-form__label" for="email">Введіть вашу електронну пошту: <input class="registration-form__input" id="email" name="email" type="email" required /></label> <!-- Елементи "label" та "input" в блоку "registration-form" -->
+        <label class="registration-form__label" for="new-password">Створіть новий пароль: <input class="registration-form__input" id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label> <!-- Елементи "label" та "input" в блоку "registration-form" -->
+      </fieldset>
+      <fieldset class="account-type"> <!-- Блок "account-type" -->
+        <label class="account-type__label" for="personal-account"><input class="account-type__radio" id="personal-account" type="radio" name="account-type" /> Особистий обліковий запис</label> <!-- Елемент "label" та "input" в блоку "account-type" -->
+        <label class="account-type__label" for="business-account"><input class="account-type__radio" id="business-account" type="radio" name="account-type" /> Бізнес обліковий запис</label> <!-- Елемент "label" та "input" в блоку "account-type" -->
+        <label class="account-type__label" for="terms-and-conditions">
+          <input class="account-type__checkbox" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> Я приймаю <a class="account-type__terms-link" href="https://www.freecodecamp.org/news/terms-of-service/">умови та положення</a>
+        </label> <!-- Елемент "label" та "input" в блоку "account-type" -->
+      </fieldset>
+      <fieldset class="additional-info"> <!-- Блок "additional-info" -->
+        <label class="additional-info__label" for="profile-picture">Завантажте своє фото: <input class="additional-info__input" id="profile-picture" type="file" name="file" /></label> <!-- Елементи "label" та "input" в блоку "additional-info" -->
+        <label class="additional-info__label" for="age">Введіть ваш вік (роки): <input class="additional-info__input" id="age" type="number" name="age" min="13" max="120" /></label> <!-- Елементи "label" та "input" в блоку "additional-info" -->
+        <label class="additional-info__label" for="referrer">Як ви дізналися про нас?
+          <select class="additional-info__select" id="referrer" name="referrer">
+            <option value="">(виберіть один варіант)</option>
+            <option value="1">Новини</option>
+            <option value="2">Канал на YouTube</option>
+            <option value="3">Форум</option>
+            <option value="4">Інше</option>
+          </select>
+        </label> <!-- Елементи "label" та "select" в блоку "additional-info" -->
+        <label class="additional-info__label" for="bio">Надайте короткий опис про себе:
+          <textarea class="additional-info__textarea" id="bio" name="bio" rows="3" cols="30" placeholder="Мені подобається програмування на пляжі..."></textarea>
+        </label> <!-- Елемент "label" та "textarea" в блоку "additional-info" -->
+      </fieldset>
+      <input class="registration-container__submit" type="submit" value="Відправити" /> <!-- Елемент "submit" в блоку "registration-container" -->
+    </form>
+</div>
+
+
